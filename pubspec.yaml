@@ -1,0 +1,40 @@
+name: weekly_flutter_challenge_4_weather_app
+description: Weekly Flutter Challenge 4
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  provider: ^3.1.0
+  intl: ^0.16.0
+  keyboard_visibility: ^0.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/cairo.jpg
+   - assets/images/paris.jpg
+   - assets/icons/cloudy.png
+   - assets/icons/partly_cloudy.png
+   - assets/icons/rainy.png
+   - assets/icons/sunny.png
+   - assets/icons/cloudy_white.png
+   - assets/icons/partly_cloudy_white.png
+   - assets/icons/rainy_white.png
+   - assets/icons/sunny_white.png
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: assets/fonts/OpenSans-Bold.ttf
+          weight: 700
